@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  h2 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /*--ヘッダー--*/
+  .siteIcon h1 {
+    float: left;
+    margin-top: 0px;
+    margin: auto auto;
+  }
+
+  /*--ヘッダーend--*/
+
+  /*--servicesー--*/
+  div.services {
+    text-align: center;
+  }
+  /*--skillsー--*/
+
+  .inner3 {
+    max-width: 800px;
+    margin: auto auto 60px;
+    width: 100%;
+  }
+
+  .skills > div {
+    font-size: 14px;
+    margin: 0 35px;
+    flex: 1px 1px;
+  }
+
+  /*--about--*/
+  .about p {
+    text-align: left;
+  }
+}
