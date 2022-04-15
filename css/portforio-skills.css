@@ -154,17 +154,16 @@ footer {
 
 .slick-prev::before,
 .slick-next::before {
-  color: block !important;
-  margin: auto;
+  /* color: block !important; */
+  margin: 0 auto 0 -10px;
   font-family: "slick";
   font-size: 40px;
   line-height: 1;
   opacity: 0.75;
   color: black;
   -webkit-font-smoothing: antialiased;
-  z-index: 2px;
+  /* z-index: 2px; */
 }
-
 /*--pagetop-botton--*/
 #pagetop {
   position: fixed;
