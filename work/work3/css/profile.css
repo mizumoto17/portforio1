@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+}
+img {
+  max-width: 100%;
+  border-style: none;
+}
+nav li {
+  list-style: none;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 0 4%;
+  text-align: center;
+}
+/* ヘッダー */
+
+.logo {
+  width:120px;
+  line-height: 2px;
+  padding: 0 auto;
+  margin-left:30px;
+  margin-top:2px;
+  position:absolute;
+}
+.nav {
+  display:flex;
+  position:relative;
+}
+.nav ul {
+display: flex;
+padding: auto 20px;
+align-items: center;
+margin-left:720px;
+}
+.nav li {
+  margin-left: 30px;
+}
+.nav li a:hover {
+  opacity: 0.7;
+}
+.nav li a {
+    color: #24292e;
+}
+/* メインビジュアル */
+.mainvisual img {
+  width:100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+  margin-bottom:50px;
+}
+
+/* about */
+.section-title {
+  font-size:2.2em;
+  border-bottom: solid 1px #383e45;
+  display:inline-block;
+  text-align:center;
+}
+.about-container {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.about-container img {
+  width:11%;
+  height:11%;
+  border-radius: 100px;
+  margin-bottom:90px;
+  text-align:center;
+}
+.text {
+  text-align: center;
+  margin-left:30px;
+}
+.text h3 {
+  text-align: left;;
+}
+
+/* bicycle */
+.bicycle-contaier img {
+  width:90%;
+  text-align:center;
+  object-fit: cover;
+  margin:auto;
+}
+
+.bicycle-contaier ul {
+  display:flex;
+  justify-content: space-between;
+
+}
+.bicycle-contaier {
+  margin-bottom:100px;
+}
+/* footer */
+.footer {
+  text-align:center;
+  font-size:0.7px;
+}
+@media screen and (max-width:600px) {
+.mainvisual img {
+  height: calc(100vh - 60px);
+  }
+
+.nav ul {
+  align-items: center;
+  margin-left: 150px;
+}
+.about-container {
+  display:block;
+  flex-direction: column;
+}
+
+.about-container img {
+  width:32%;
+  margin:auto;
+}
+.text {
+  text-align: left;
+}
+
+.bicycle-contaier ul {
+  flex-direction: column;
+  margin:auto;
+  padding-left:0px;
+}
+
+.bicycle-contaier li {
+  width: 100%;
+}
+}
