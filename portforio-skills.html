@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset =utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="format-detection" content="telephone=no,address=no,email=no" />
+	<meta name="Keywords" content="MzY,Mizumoto,Portforio" />
+
+	<link rel="stylesheet" style type="text/css" href="css/slick.css">
+	<link rel="stylesheet" style type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" style type="text/css" href="css/portforio-skills.css?2022416">
+	<link rel="stylesheet" style type="text/css" href="css/portforiosmaf.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<title>Mizumoto PortForio</title>
+
+</head>
+
+<body>
+	<!-- header -->
+	<header id="header">
+		<div class="headcontainer">
+			<div class="siteIcon">
+				<h1><a href="portforio.html"><img src="img\mizulogo.png" alt="ロゴ画像"></a></h1>
+			</div>
+			<div class="nav">
+				<nav>
+					<ul>
+						<li><a href="portforio-about.html">About</a></li>
+						<li><a href="portforio-skills.html">Skills</a></li>
+						<li><a href="portforio-works.html">Works</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<!-- skills edit -->
+		<section>
+			<h2>CG</h2>
+			<div class="container">
+				<div class="editcontainer">
+					<h3>Premiere pro / AviUtl</h3>
+					<div class="edittext">
+						<p>CG作成にて、編集ソフトを使用したブロックノイズやシーンチェンジを用いた演出や、イージングを使用し文字に立体的な動きを加えた演出が可能です。<br></p>
+					</div>
+						<div class="slider-box">
+								<div><img src="img/skills/elect/elect1.jpg" alt="イラスト1"></div>
+								<div><img src="img/skills/elect/elect2.jpg" alt="イラスト2"></div>
+								<div><img src="img/skills/elect/elect3.jpg" alt="イラスト3"></div>
+								<div><img src="img/skills/selfishp/selfish.jpg" alt="イラスト4"></div>
+						</div>
+
+					<h3>Edit</h3>
+					<div class="edittext">
+						<p>シーンチェンジやブロックノイズは、1秒に10~20個の図形や画像、フレームバッファを使用し、ランダム配置やずらしを入れて再現しております。</p>
+					</div>
+						<div class="slider-box">
+							<div><img src="img/skills/edit/edit1.png" alt="イラスト5"></div>
+							<div><img src="img/skills/edit/edit2.png" alt="イラスト6"></div>
+						</div>
+				</div>
+			</div>
+		</section>
+		<!-- skills paintshop -->
+		<section>
+			<h2>Illust Edit</h2>
+			<div class="container">
+				<div class="illustcontainer">
+					<h3>paintshop</h3>
+					<div class="edittext">
+						<p>彩度、透明度、サイズ変更等基本的な動作が可能です。<br>- 1枚目のスライドが配布モデルのデフォルト写真です -</p>
+					</div>
+					<div class="slider-box2">
+						<div><img src="img/skills/paint/origineye.png" alt="イラスト7"></div>
+						<div><img src="img/skills/paint/skyblueeye.png" alt="イラスト8"></div>
+						<div><img src="img/skills/paint/emeraldeye.png" alt="イラスト9"></div>
+						<div><img src="img/skills/paint/redeye.png" alt="イラスト10"></div>
+					</div>
+					<h3>MMD</h3>
+					<div class="edittext">
+						<p>上記の編集を加え、3Dソフトで起動した瞳の色一覧<br></p>
+					</div>
+					<div class="slider-box">
+						<div><img src="img/skills/paint/default.jpg" alt="イラスト11"></div>
+						<div><img src="img/skills/paint/sky-blue.jpg" alt="イラスト12"></div>
+						<div><img src="img/skills/paint/emerald.jpg" alt="イラスト13"></div>
+						<div><img src="img/skills/paint/red.jpg" alt="イラスト14"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- programing -->
+		<section>
+			<h2>Programing</h2>
+			<div class="container">
+				<div class="itcontainer">
+					<h3>C言語</h3>
+					<div class="edittext">
+						<p>宝くじの年末ジャンボを毎年10枚買うとしたらいくらで1等がとれるのだろう？という思いから作成しました。<br>-起動方法-<br>DL後、ダブルクリックで開きます。</p>
+						<a href="c/gatya.exe" alt="年末ガチャシミュレーター">年末ガチャシミュレーター</a>
+					</div>
+					<h3>Java</h3>
+					<div class="edittext">
+						<p>Javaに関して苦手意識はあったものの、自動販売機なら作成できると信じ2週間程で作成しました。<br>-起動方法-<br>DL後、java -jar パス名/ファイル名.jar で開きます。</p>
+						<a href="java/VendingMachine.jar" alt="自動販売機">自動販売機</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- top-button -->
+		<div id="pagetop"></div>
+	</main>
+	<footer>
+		<small>
+			2022 Mizumoto PortForio
+		</small>
+	</footer>
+	<script>
+	$(function () {
+		$('.slider-box').slick({
+			dots: true
+		});
+		$('.slider-box2').slick({
+			dots: true
+		});
+	});
+		</script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="javascript/slick.min.js"></script>
+	<script src="javascript/smoothscroll.js"></script>
+	<script src="javascript/portforio.js" defer></script>
+</body>
+
+</html>

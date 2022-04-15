@@ -11,27 +11,21 @@ body {
   overflow: hidden;
   text-align: center;
 }
-
-.video {
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  width: 90%;
-  height: 80%;
-  /*text-align: center;*/
-}
-
 h2 {
+  width:85%;
   font-size: 40px;
   font-weight: normal;
   background: lightgoldenrodyellow;
-  margin: 0 140px 0 140px;
+  /* margin: 0 140px 0 140px; */
+  margin:auto;
+  padding:auto;
   text-align: center;
 }
 
 a:link {
-  color: darakblue;
+  color: darkblue;
   display: inline-block;
+  text-decoration: none;
 }
 a:visited {
   color: purple;
@@ -41,9 +35,7 @@ a:hover {
   color: darkorange;
 }
 
-ul,
-ol,
-li {
+ul,ol,li {
   list-style: none;
 }
 
@@ -52,24 +44,42 @@ footer {
   color: white;
 }
 
+/* 予備 */
+/* .container {
+  width: 80%;
+  max-width: 1332px;
+  padding: 0 15px;
+  margin: 0 auto;
+} */
 /*--ヘッダー--*/
-
+#header {
+  height: 90px;
+  justify-content: space-between;
+  /* background-color: greenyellow; */
+}
+.headcontainer {
+  width: 80%;
+  max-width: 1332px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .siteIcon h1 {
   /*  min-width: 100%;
   min-height: 100%;これのせいでヘッダーがそろわなかった*/
   /*text-align: left;*/
   float: left;
-  margin-top: 2px;
-  margin-left: 125px;
+  margin-top: 20px;
+  margin-left: 0px;
 }
 
 .nav ul {
   /* display: inline-block; */
   /* margin-right: 120px; */
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   padding: 0 3%;
   float: right;
   max-width: 960px;
+
   /* justify-content: space-between; */
 }
 
@@ -78,12 +88,27 @@ footer {
   position: relative;
   list-style: none;
   margin-right: 10px;
+  margin-top:20px;
   padding: 10px;
   /* border-bottom: 1px solid black; */
   font-size: 1.1rem;
 }
 
-/*--ヘッダー終了--*/
+/* メインビジュアル */
+.mainvisual {
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  /* background-color: skyblue; */
+}
+
+.mainvisual > video {
+  width: 80%;
+  height: 80%;
+}
 
 /*--services--*/
 
@@ -91,6 +116,7 @@ footer {
   max-width: 1600px;
   margin: auto auto 60px;
   width: 90%;
+  /* background-color:blueviolet; */
 }
 
 .services {

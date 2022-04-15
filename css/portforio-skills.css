@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+  overflow: auto;
+}
+
+body {
+  background: white;
+  /* background: skyblue; */
+  overflow: hidden;
+  text-align: center;
+}
+
+h2 {
+  width: 100%;
+  font-size: 40px;
+  font-weight: normal;
+  background: lightgoldenrodyellow;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+a:link {
+  color: darkblue;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: darkorange;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1336px;
+  padding: 0 15px;
+  margin: auto;
+  text-align: left;
+  /* background-color:blueviolet; */
+}
+
+/*--ヘッダー--*/
+#header {
+  height: 90px;
+  justify-content: space-between;
+}
+
+.headcontainer {
+  width: 80%;
+  max-width: 1336px;
+  /* 最近の画面の大きさに合わせると1366や1024が望ましい */
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.siteIcon h1 {
+  float: left;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.nav ul {
+  margin: 0 auto 0 auto;
+  padding: 0 3%;
+  float: right;
+  max-width: 960px;
+}
+
+.nav li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+/*--CG欄--*/
+
+.editcontainer {
+  width: 100%;
+  margin: 0 auto 50px auto;
+}
+.editcontainer h3 {
+  font-size: 30px;
+  margin: auto;
+}
+
+.edittext {
+  margin-left: 10px;
+  width: 100%;
+}
+
+/* ペイントショップ欄 */
+.illustcontainer {
+  width: 100%;
+  margin: 0 auto 50px auto;
+}
+
+.illustcontainer h3 {
+  font-size: 30px;
+  margin: auto;
+}
+
+/* プログラミング欄 */
+.itcontainer {
+  width: 100%;
+  margin: 0 auto 50px auto;
+}
+
+.itcontainer h3 {
+  font-size: 30px;
+  margin: auto;
+}
+
+/* スライダー slick /////////////////////////////*/
+.slider-box {
+  margin: auto;
+  width: 60%;
+}
+.slider-box img {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  border-radius: 25px;
+}
+.slider-box2 {
+  margin: auto;
+  width: 30%;
+}
+.slider-box2 img {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: block !important;
+  margin: auto;
+  font-family: "slick";
+  font-size: 40px;
+  line-height: 1;
+  opacity: 0.75;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  z-index: 2px;
+}
+
+/*--pagetop-botton--*/
+#pagetop {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+#pagetop:hover {
+  transform: scale(1.1);
+}
+
+#pagetop::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  margin-bottom: -6px;
+  border-top: solid 3px #fff;
+  border-right: solid 3px #fff;
+  transform: rotate(-45deg);
+}
